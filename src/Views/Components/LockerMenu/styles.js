@@ -7,6 +7,9 @@ const DesktopMainMenu = styled(Container)`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #FFFF00;
+  width:100%;
+  max-width: 100px;
 
   @media (max-width: 899px) {
     display: none;

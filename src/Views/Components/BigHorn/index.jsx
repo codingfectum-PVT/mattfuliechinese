@@ -1,6 +1,6 @@
 import React from 'react'
 
-import banner from '../../../assets/banner.png';
+import banner from '../../../assets/CMF1.png';
 import { Box, Typography } from '@mui/material';
 import emotionStyled from '@emotion/styled';
 
@@ -35,14 +35,14 @@ const TypographyA = emotionStyled(Typography)`
 const TypographyB = emotionStyled(Typography)`0;
     color: #fff;
     text-align: center;
-    font-family: "TheLastShuriken";
+    font-family: "tls";
     display: table;
     margin: auto;
     padding: 2px 25px;
     margin-top: -13px;
     position: relative;
     z-index: 1;
-    -webkit-text-stroke: 3px black;
+    -webkit-text-stroke: 6px black;
     text-shadow: 0 2px 5px #ec1826;
     line-height: 90px;
 
@@ -65,8 +65,8 @@ export default function BigHorn() {
   return (
     <Box textAlign='center'>
         <ImgEx src={banner}  />
-        <TypographyA variant='h4' >Matt Furie's</TypographyA>
-        <TypographyB variant='h1' >Bighorn<br /><span>Red</span>dragon</TypographyB>
+        {/* <TypographyA variant='h4' >Matt Furie's</TypographyA> */}
+        <TypographyB variant='h1' >Chinese<br />Matt Furie</TypographyB>
     </Box>
   )
 }

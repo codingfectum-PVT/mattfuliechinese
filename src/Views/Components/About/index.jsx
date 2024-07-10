@@ -1,7 +1,7 @@
 import emotionStyled from '@emotion/styled'
 import { Box, Button, Container, Grid } from '@mui/material'
 import React from 'react'
-import aboutBg  from '../../../assets/aboutBg.jpg'
+import aboutBg  from '../../../assets/aboutBg.png'
 import aboutImg  from '../../../assets/about-img.png'
 import logo  from '../../../assets/logo.png'
 import { MenuLink, SiteLogo } from '../LockerMenu/styles'
@@ -20,12 +20,12 @@ const SectionWrapper = emotionStyled(Box)`
     
 `
 const CustomButton = emotionStyled(Button)`
-    background:linear-gradient(to top,#fff 10%,#FF006A 0%);
+    background:linear-gradient(to top,#FFDE00 10%,#FF0000 0%);
     min-width:170px;
     margin-top:20px;
     font-size:22px;
-    font-family: "TheLastShuriken";
-    color:#fff;
+    font-family: "tls";
+    color:#FFDE00;
     -webkit-text-stroke:2px;
     -webkit-text-stroke-color:#000;
     border:2px solid #000;

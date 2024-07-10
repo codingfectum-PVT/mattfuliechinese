@@ -14,7 +14,7 @@ const DesktopMenu = (props) => {
       <MenuLink href="/" p="0px">
         <img src={logo} width="150" height='50' alt="Logo" />
       </MenuLink>
-      <div>
+      {/* <div>
         {props.menuList.map((value, i) => <MenuLink key={i} href={value.link} target={value.target} className={value.customClass}>{value.title}</MenuLink> )}
         <FormControlLabel
           control={
@@ -25,7 +25,7 @@ const DesktopMenu = (props) => {
           }
           onClick={() => dispatch(toggleTheme())}
         />
-      </div>
+      </div> */}
     </DesktopMainMenu>
   );
 };

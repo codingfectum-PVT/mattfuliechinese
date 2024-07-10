@@ -50,7 +50,7 @@ const MobileMenu = (props) => {
               {props.menuList.map((value, i) => <MenuLink key={i} href={value.link}  target={value.target} className={value.customClass + " d-block"}>{value.title}</MenuLink>)}
             </List>
           </DrawerDivider>
-          <DrawerDivider>
+          {/* <DrawerDivider>
             <List>
               <FormControlLabel
                 control={
@@ -62,7 +62,7 @@ const MobileMenu = (props) => {
                 onClick={() => dispatch(toggleTheme())}
               />
             </List>
-          </DrawerDivider>
+          </DrawerDivider> */}
         </DrawerBox>
       </Drawer>
     </MobileMainMenu>

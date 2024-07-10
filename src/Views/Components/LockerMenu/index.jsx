@@ -6,10 +6,6 @@ import MobileMenu from './component/MobileMenu';
 const LockerMenu = (props) => {
     const menuList = [ // You can pass 4 perameters for menu title, link, target and customClass
         {
-        title: "Home",
-        link: "https://poodle.finance/",
-        },
-        {
         title: "Locker",
         link: "/locker",
         },

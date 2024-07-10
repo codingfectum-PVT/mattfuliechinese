@@ -13,8 +13,16 @@
   }
 }
 @font-face {
-  font-family: "TheLastShuriken";
+  font-family: "tls";
   src: url(./assets/fonts/TheLastShuriken.woff);
+}
+@font-face {
+  font-family: "rock";
+  src: url(./assets/fonts/ROCK.woff);
+}
+*{
+  
+  font-family: "TheLastShuriken";
 }
 
 .App-header {
