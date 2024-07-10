@@ -12,6 +12,10 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+@font-face {
+  font-family: "TheLastShuriken";
+  src: url(./assets/fonts/TheLastShuriken.woff);
+}
 
 .App-header {
   background-color: #282c34;
