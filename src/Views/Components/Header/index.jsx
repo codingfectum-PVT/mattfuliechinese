@@ -6,7 +6,7 @@ import logo from '../../../assets/logo.png'
 import { MenuLink, SiteLogo } from '../LockerMenu/styles'
 import Paragraph from '../Paragraph'
 import BigHorn from '../BigHorn'
-import { CA, dexToolsLink, tgLink, xLink } from '../../../links'
+import { CA, dexToolsLink, tgLink, uniSwapLink, xLink } from '../../../links'
 
 const SectionWrapper = emotionStyled(Box)`
     min-height: 100vh;
@@ -74,11 +74,9 @@ function Header() {
                     </Grid>
                     <Grid item xs={12} lg={8} marginBottom={10} display="flex" flexDirection="column" alignItems={"center"} >
                         <BigHorn />
-                        <Paragraph maxWidth="1000px" fontWeight="bold" marginY="10px">
-                            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
-                        </Paragraph>
+                        <Paragraph maxWidth="1000px" fontWeight="bold" marginY="10px">The Chinese Matt Furie</Paragraph>
                         {/* <Box display="flex" alignItems={"center"} justifyContent={"space-between"} width="100%" maxWidth="600px" height="50px" padding="0 20px" sx={{ background: "linear-gradient(to top,#fff 10%,#000 0%)", border: "2px solid #000" }}> */}
-                            <CustomButton >
+                            <CustomButton href={uniSwapLink} >
                                 Buy $CMATT                    </CustomButton>
                         {/* </Box> */}
                     </Grid>

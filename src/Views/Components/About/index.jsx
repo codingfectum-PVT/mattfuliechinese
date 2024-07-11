@@ -40,7 +40,7 @@ function AboutSection() {
                     <Paragraph fontSize={{xs:"40px",md:"50px"}} color="#fff" fontFamily="TheLastShuriken" fontWeight="900" marginBottom={1}>
                     <span style={{color: '#FF0000'}}>$CMATT</span> is <span style={{color: '#50FF06'}}>live!!</span>
                     </Paragraph>
-                    <Paragraph  color="#fff" maxWidth={740} padding={2}>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</Paragraph>
+                    <Paragraph  color="#fff" maxWidth={740} padding={2}>Matt Fulie, the Chinese version of American artist Matt Furie, is launching soon on the blockchain. Matt Furie is famous for creating Pepe the Frog, a character that became a global meme. Fulie’s work mirrors Furie's playful and colorful style and is already popular on Chinese social media.</Paragraph>
                     <CustomButton href={tgLink}>
                         ape In
                     </CustomButton>
