@@ -54,30 +54,30 @@ const Footer = () => {
 
                     {/* <Covimg src={cover}/> */}
                     <Grids container sx={{ display: "flex", justifyContent: "Center", gap: { xs: "30px", lg: "50px" } }} >
-                        <Grid xs={12} paddingBottom={2}  sx={{textAlign: "-webkit-center"}} >
+                        <Grid xs={12} paddingBottom={2} sx={{ textAlign: "-webkit-center" }} >
                             <Typography fontSize={{ xs: "40px", md: "150px" }} variant='h3' textAlign='center' color="#fff" fontFamily="tls" >
                                 Ape into<br />
-                                $CMATT
+                                $FULIE
                             </Typography>
                             <Box display="flex" alignItems={"center"} justifyContent={"space-between"} width="100%" maxWidth="600px" height="50px" padding="0 20px" sx={{ background: "linear-gradient(to top,#000 10%,#FF0000 0%)", border: "2px solid #000" }}>
                                 <Paragraph color="#FFDE00" fontFamily="tls" fontWeight="900">
                                     CA
                                 </Paragraph>
-                                <Paragraph  color="#fff">
+                                <Paragraph color="#fff">
                                     {CA}
                                 </Paragraph>
                             </Box>
-                            <br/>
-                            <Paragraph  fontFamily="rock" color="#fff">
-                                Follow CMATT on Twitter or Telegram
+                            <br />
+                            <Paragraph fontFamily="rock" color="#fff">
+                                Follow $FULIE on Twitter or Telegram
                             </Paragraph>
-                            <br/>
-                          <a href={tgLink}>  
-                          <Iconss src={Tg}/></a>
-                          &nbsp;
-                          &nbsp;
-                          <a href={xLink}>  
-                            <Iconss src={X}/></a>
+                            <br />
+                            <a href={tgLink}>
+                                <Iconss src={Tg} /></a>
+                            &nbsp;
+                            &nbsp;
+                            <a href={xLink}>
+                                <Iconss src={X} /></a>
                         </Grid>
 
 

@@ -34,37 +34,37 @@ const MainPage = (props) => {
 
         <Marquee style={{background:"#fff"}}>
           <ImgPug src={CMF3}/>
-        <Paragraph color="#000" textTransform="uppercase"  m={{xs:"10px 20px",sm:"20px 30px"}} fontSize={{xs:"20px",sm:"40px",md:"50px",lg:"60px"}} fontFamily="tls">
+        <Paragraph color="#000" textTransform="uppercase"  m={{xs:"10px 20px",sm:"0px 30px"}} fontSize={{xs:"20px",sm:"40px",md:"50px",lg:"60px"}} fontFamily="tls">
             Buy Now
         </Paragraph>
         <ImgPug src={CMF2}/>
 
-        <Paragraph color="#000" textTransform="uppercase" m={{xs:"10px 20px",sm:"20px 30px"}} fontSize={{xs:"20px",sm:"40px",md:"50px",lg:"60px"}} fontFamily="tls">
+        <Paragraph color="#000" textTransform="uppercase" m={{xs:"10px 20px",sm:"0px 30px"}} fontSize={{xs:"20px",sm:"40px",md:"50px",lg:"60px"}} fontFamily="tls">
             Buy Now
         </Paragraph>
         <ImgPug src={CMF3}/>
 
-        <Paragraph color="#000" textTransform="uppercase" m={{xs:"10px 20px",sm:"20px 30px"}} fontSize={{xs:"20px",sm:"40px",md:"50px",lg:"60px"}} fontFamily="tls">
+        <Paragraph color="#000" textTransform="uppercase" m={{xs:"10px 20px",sm:"0px 30px"}} fontSize={{xs:"20px",sm:"40px",md:"50px",lg:"60px"}} fontFamily="tls">
             Buy Now
         </Paragraph>
         <ImgPug src={CMF4}/>
 
-        <Paragraph color="#000" textTransform="uppercase" m={{xs:"10px 20px",sm:"20px 30px"}} fontSize={{xs:"20px",sm:"40px",md:"50px",lg:"60px"}} fontFamily="tls">
+        <Paragraph color="#000" textTransform="uppercase" m={{xs:"10px 20px",sm:"0px 30px"}} fontSize={{xs:"20px",sm:"40px",md:"50px",lg:"60px"}} fontFamily="tls">
             Buy Now
         </Paragraph>
         <ImgPug src={CMF3}/>
 
-        <Paragraph color="#000" textTransform="uppercase" m={{xs:"10px 20px",sm:"20px 30px"}} fontSize={{xs:"20px",sm:"40px",md:"50px",lg:"60px"}} fontFamily="tls">
+        <Paragraph color="#000" textTransform="uppercase" m={{xs:"10px 20px",sm:"0px 30px"}} fontSize={{xs:"20px",sm:"40px",md:"50px",lg:"60px"}} fontFamily="tls">
             Buy Now
         </Paragraph>
         <ImgPug src={CMF2}/>
 
-        <Paragraph color="#000" textTransform="uppercase" m={{xs:"10px 20px",sm:"20px 30px"}} fontSize={{xs:"20px",sm:"40px",md:"50px",lg:"60px"}} fontFamily="tls">
+        <Paragraph color="#000" textTransform="uppercase" m={{xs:"10px 20px",sm:"0px 30px"}} fontSize={{xs:"20px",sm:"40px",md:"50px",lg:"60px"}} fontFamily="tls">
             Buy Now
         </Paragraph>
         <ImgPug src={CMF3}/>
 
-        <Paragraph color="#000" textTransform="uppercase" m={{xs:"10px 20px",sm:"20px 30px"}} fontSize={{xs:"20px",sm:"40px",md:"50px",lg:"60px"}} fontFamily="tls">
+        <Paragraph color="#000" textTransform="uppercase" m={{xs:"10px 20px",sm:"0px 30px"}} fontSize={{xs:"20px",sm:"40px",md:"50px",lg:"60px"}} fontFamily="tls">
             Buy Now
         </Paragraph>
         {/* <ImgPug src={CMF4}/> */}

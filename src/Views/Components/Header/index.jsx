@@ -50,6 +50,10 @@ const CustomButton = emotionStyled(Button)`
     -webkit-text-stroke:2px;
     -webkit-text-stroke-color:#000;
     border:2px solid #000;
+    @media screen and (max-width:400px){
+        min-width:270px;
+
+    }
 `
 function Header() {
     return (
@@ -76,8 +80,9 @@ function Header() {
                         <BigHorn />
                         <Paragraph maxWidth="1000px" fontWeight="bold" marginY="10px">The Chinese Matt Furie</Paragraph>
                         {/* <Box display="flex" alignItems={"center"} justifyContent={"space-between"} width="100%" maxWidth="600px" height="50px" padding="0 20px" sx={{ background: "linear-gradient(to top,#fff 10%,#000 0%)", border: "2px solid #000" }}> */}
-                            <CustomButton href={uniSwapLink} >
-                                Buy $CMATT                    </CustomButton>
+                        <CustomButton href={uniSwapLink} >
+                            Buy $FULIE
+                        </CustomButton>
                         {/* </Box> */}
                     </Grid>
                 </Grid>

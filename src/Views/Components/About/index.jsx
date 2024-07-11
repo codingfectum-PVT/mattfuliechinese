@@ -36,15 +36,15 @@ function AboutSection() {
         <Container maxWidth="xl">
             <Grid container display="flex" alignContent="space-between" justifyContent={"center"}>
                 <Grid item xs={12} lg={9} display="flex" flexDirection="column" alignItems={"center"} sx={{background:"linear-gradient(to top,#161616 85%,transparent 0%)", paddingBottom: '30px'}}>
-                    <Image mw="200px" src={aboutImg} alt="Bighorn Reddragon"/>
-                    <Paragraph fontSize={{xs:"40px",md:"50px"}} color="#fff" fontFamily="TheLastShuriken" fontWeight="900" marginBottom={1}>
-                    <span style={{color: '#FF0000'}}>$CMATT</span> is <span style={{color: '#50FF06'}}>live!!</span>
+                    <Image mw="200px" src={aboutImg} alt=""/>
+                    <Paragraph fontSize={{xs:"40px",md:"50px"}} color="#fff" fontFamily="tls" fontWeight="900" marginBottom={1}>
+                    <span style={{fontFamily:"tls",color: '#FF0000'}}>$FULIE</span> is <span style={{fontFamily:"tls",color: '#50FF06'}}>live!!</span>
                     </Paragraph>
                     <Paragraph  color="#fff" maxWidth={740} padding={2}>Matt Fulie, the Chinese version of American artist Matt Furie, is launching soon on the blockchain. Matt Furie is famous for creating Pepe the Frog, a character that became a global meme. Fulie’s work mirrors Furie's playful and colorful style and is already popular on Chinese social media.</Paragraph>
                     <CustomButton href={tgLink}>
                         ape In
                     </CustomButton>
-                    <Paragraph fontFamily="" color="#808080" marginTop={2}>
+                    <Paragraph style={{fontFamily:"rock"}} color="#808080" marginTop={2}>
                         JEETERS GO HOME
                     </Paragraph>
                     

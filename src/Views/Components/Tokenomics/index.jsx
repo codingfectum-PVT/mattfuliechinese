@@ -35,7 +35,7 @@ function Tokenomics() {
         <Container maxWidth="xl">
             <Grid container justifyContent='center'>
                 <Grid xs={12} paddingBottom={2}>
-                    <Typography variant='h3' textAlign='center' color="#fff" fontFamily="tls" >TOKENOMICS</Typography>
+                    <Typography variant='h3' fontSize={{ xs: "35px", md: "60px" }}textAlign='center' color="#fff" fontFamily="tls" >TOKENOMICS</Typography>
                     {/* <Typography variant='subtitle1' textAlign='center' color="#fff"  >You are early...</Typography> */}
                 </Grid>
                 <Grid xs={12} md={9} container>

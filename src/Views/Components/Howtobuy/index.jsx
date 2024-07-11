@@ -34,35 +34,36 @@ const HowToBuy = () => {
         <SectionWrapper>
             <Container maxWidth="xxl" id="how-to-buy">
                 <Container maxWidth="xl" >
-                <Grid xs={12} paddingBottom={2}>
-                    <Typography variant='h3' textAlign='center' color="#000" fontFamily="tls" >How to Buy</Typography>
-                    {/* <Typography variant='subtitle1' textAlign='center' color="#fff"  >You are early...</Typography> */}
-                </Grid>
-                    <Grid container sx={{ display: "flex",textAlign: "-webkit-center", justifyContent: "Center", gap: { xs: "30px", lg: "50px" } }} >
-                     <Grid item xs={12}>
-                        <Box sx={{ border: "1px solid black", backgroundColor: "#fff", width: "100%", maxWidth: "600px", minHeight: "220px", padding: "30px 30px 35px", width: "100%", display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "start", gap: "5px" }}>
-                            <Paragraph variant="h5" fontSize="25px" color="black" margin="auto" fontFamily="tls">
-                                1. WALLET
-                            </Paragraph>
-                            <Paragraph color="black" placeSelf="center" variant="body2" textAlign="center" minHeight="80px" alignSelf="center" fontSize={{ xs: "17px" }}>Create a metamask wallet.</Paragraph>
-                        </Box>
-                     </Grid>
-                     <Grid item xs={12}>
-                        <Box sx={{ border: "1px solid black", backgroundColor: "#fff", width: "100%", maxWidth: "600px", minHeight: "220px", padding: "30px 30px 35px", width: "100%", display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "start", gap: "5px" }}>
-                            <Paragraph variant="h5" fontSize="25px" color="black" margin="auto" fontFamily="tls">
-                            2. GET SOME ETH
-                            </Paragraph>
-                            <Paragraph color="black" placeSelf="center" variant="body2" textAlign="center" minHeight="80px" fontSize={{ xs: "17px" }}>Buy some ETH in the exchange and send ETH to your metamask wallet.</Paragraph>
-                        </Box>
-                     </Grid>
-                     <Grid item xs={12}>
-                        <Box sx={{ border: "1px solid black", backgroundColor: "#fff", width: "100%", maxWidth: "600px", minHeight: "220px", padding: "30px 30px 35px", width: "100%", display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "start", gap: "5px" }}>
-                            <Paragraph variant="h5" fontSize="25px" color="black" margin="auto" fontFamily="tls">
-                            3. SWAP ETH  $CMATT                            </Paragraph>
-                            <Paragraph color="black" placeSelf="center" variant="body2" textAlign="center" minHeight="80px" fontSize={{ xs: "17px" }}>Acquire Ethereum (ETH) from a reputable exchange to load your wallet.</Paragraph>
-                        </Box>
+                    <Grid xs={12} paddingBottom={2}>
+                        <Typography variant='h3' textAlign='center' color="#000" fontFamily="tls" >How to Buy</Typography>
+                        {/* <Typography variant='subtitle1' textAlign='center' color="#fff"  >You are early...</Typography> */}
+                    </Grid>
+                    <Grid container sx={{ display: "flex", textAlign: "-webkit-center", justifyContent: "Center", gap: { xs: "30px", lg: "50px" } }} >
+                        <Grid item xs={12}>
+                            <Box sx={{ border: "1px solid black", backgroundColor: "#fff", width: "100%", maxWidth: "600px", minHeight: "220px", padding: "30px 30px 35px", width: "100%", display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "start", gap: "5px" }}>
+                                <Paragraph variant="h5" fontSize="25px" color="black" margin="auto" fontFamily="tls">
+                                    1. WALLET
+                                </Paragraph>
+                                <Paragraph color="black" placeSelf="center" variant="body2" textAlign="center" minHeight="80px" alignSelf="center" fontSize={{ xs: "17px" }}>Create a metamask wallet.</Paragraph>
+                            </Box>
+                        </Grid>
+                        <Grid item xs={12}>
+                            <Box sx={{ border: "1px solid black", backgroundColor: "#fff", width: "100%", maxWidth: "600px", minHeight: "220px", padding: "30px 30px 35px", width: "100%", display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "start", gap: "5px" }}>
+                                <Paragraph variant="h5" fontSize="25px" color="black" margin="auto" fontFamily="tls">
+                                    2. GET SOME ETH
+                                </Paragraph>
+                                <Paragraph color="black" placeSelf="center" variant="body2" textAlign="center" minHeight="80px" fontSize={{ xs: "17px" }}>Buy some ETH in the exchange and send ETH to your metamask wallet.</Paragraph>
+                            </Box>
+                        </Grid>
+                        <Grid item xs={12}>
+                            <Box sx={{ border: "1px solid black", backgroundColor: "#fff", width: "100%", maxWidth: "600px", minHeight: "220px", padding: "30px 30px 35px", width: "100%", display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "start", gap: "5px" }}>
+                                <Paragraph variant="h5" fontSize="25px" color="black" margin="auto" fontFamily="tls">
+                                    3. SWAP ETH  $FULIE
+                                </Paragraph>
+                                <Paragraph color="black" placeSelf="center" variant="body2" textAlign="center" minHeight="80px" fontSize={{ xs: "17px" }}>Acquire Ethereum (ETH) from a reputable exchange to load your wallet.</Paragraph>
+                            </Box>
 
-                     </Grid>
+                        </Grid>
                     </Grid>
                 </Container>
             </Container>
