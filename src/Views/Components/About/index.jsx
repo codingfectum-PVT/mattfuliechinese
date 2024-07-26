@@ -7,7 +7,7 @@ import logo  from '../../../assets/logo.png'
 import { MenuLink, SiteLogo } from '../LockerMenu/styles'
 import { Image } from '../../Styles/style'
 import Paragraph from '../Paragraph'
-import { tgLink } from '../../../links'
+import { tgLink, uniSwapLink } from '../../../links'
 
 const SectionWrapper = emotionStyled(Box)`
     min-height: 100vh;
@@ -41,7 +41,7 @@ function AboutSection() {
                     <span style={{fontFamily:"tls",color: '#FF0000'}}>$FULIE</span> is <span style={{fontFamily:"tls",color: '#50FF06'}}>live!!</span>
                     </Paragraph>
                     <Paragraph  color="#fff" maxWidth={740} padding={2}>Matt Fulie, the Chinese version of American artist Matt Furie, is launching soon on the blockchain. Matt Furie is famous for creating Pepe the Frog, a character that became a global meme. Fulie’s work mirrors Furie's playful and colorful style and is already popular on Chinese social media.</Paragraph>
-                    <CustomButton href={tgLink}>
+                    <CustomButton href={uniSwapLink}>
                         ape In
                     </CustomButton>
                     <Paragraph style={{fontFamily:"rock"}} color="#808080" marginTop={2}>

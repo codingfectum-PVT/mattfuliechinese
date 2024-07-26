@@ -1,9 +1,9 @@
 export const websiteLink = '#';
 export const tgLink = 'https://t.me/mattfulie';
 export const xLink = '#';
-export const dexScreenerLink = '#';
-export const dexToolsLink = '#';
-export const uniSwapLink = '#';
+export const dexScreenerLink = 'https://dexscreener.com/ethereum/0x0add62370da57ca764af3b04bf4cff25209a85e5';
+export const dexToolsLink = 'https://www.dextools.io/app/en/ether/pair-explorer/0x5c59d76ce189eb1fc6c71dcaf5747beca29eabbe?t=1721998145647';
+export const uniSwapLink = 'https://app.uniswap.org/swap/?chainId=1&inputCurrency=0x0add62370da57ca764af3b04bf4cff25209a85e5';
 export const buySellTax = '0/0';
 export const supply = '417,99B';
-export const CA = 'TBA';
+export const CA = '0x0add62370da57ca764af3b04bf4cff25209a85e5';

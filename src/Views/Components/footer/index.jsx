@@ -63,7 +63,7 @@ const Footer = () => {
                                 <Paragraph color="#FFDE00" fontFamily="tls" fontWeight="900">
                                     CA
                                 </Paragraph>
-                                <Paragraph color="#fff">
+                                <Paragraph style={{wordBreak:"break-word"}}  color="#fff">
                                     {CA}
                                 </Paragraph>
                             </Box>
